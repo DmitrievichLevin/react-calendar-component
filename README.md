@@ -15,14 +15,25 @@ npm install --save react-calendar-component
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-calendar-component'
+import ReactCalendar from 'react-calendar-component'
 import 'react-calendar-component/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ReactCalendar />
   }
 }
+```
+
+## Props
+
+```
+width = (default: 60px)
+color = (default: burlywood)
+currentDayColor = (default: #57A28D)
+monthSize = (default: 3em)
+daySize = (default: 1em)
+
 ```
 
 ## License
