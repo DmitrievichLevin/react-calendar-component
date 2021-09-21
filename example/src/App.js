@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-calendar-component'
+import ReactCalendar from 'react-calendar-component'
 import 'react-calendar-component/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ReactCalendar />
 }
 
 export default App
