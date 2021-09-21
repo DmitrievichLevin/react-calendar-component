@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef, defaultProps } from "react";
-import * as d3 from "https://cdn.skypack.dev/d3@7";
+import * as d3 from "d3";
 import Calendar from "./utils/Calendar";
 import styles from './styles.module.css'
 
