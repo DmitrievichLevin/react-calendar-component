@@ -14,7 +14,7 @@ npm install --save react-calendar-component
 
 ```jsx
 
-import ReactCalendar from 'react-calendar-component'
+import ReactCalendar from 'react-calendar-component';
 
 class Example extends Component {
   render() {
